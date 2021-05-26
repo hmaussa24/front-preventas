@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.contenedor {
+  background-color: #17a2b8;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-admin {
+  background-color: #d4d4d4;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.centrar-login{
+  margin: auto;
+  width: 35%;
+  padding: 2em;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+}

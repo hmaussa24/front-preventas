@@ -1,0 +1,18 @@
+.card-users{
+    margin: auto;
+    width: 90%;
+    border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  }
+
+  .card-users {
+    width: 900px;
+    padding: 2em;
+  }
+
+  .baged{
+    width: 100%;
+  }

@@ -4,8 +4,9 @@ import { Col, Container, Form, Row } from "react-bootstrap";
 import SingUpForm from "./SingUpForm";
 import { httpPost } from "../../Services/Services";
 import {URL} from '../../Constans/Constans'
+import NavBarComponent from "../../Component/NavBar";
 const Index = () => {
-  type formDataRegister = {
+  interface formDataRegister {
     name?: string;
     description?: string;
     addres?: string;
@@ -32,6 +33,7 @@ const Index = () => {
 
   return (
     <Container fluid>
+      <NavBarComponent />
       <SingUpForm onSubmit={onSubmit} onChange={handledForm} />
     </Container>
   );

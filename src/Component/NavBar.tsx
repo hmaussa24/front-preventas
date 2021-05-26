@@ -12,7 +12,7 @@ const NavBarComponent = () => {
           style={{ maxHeight: "100px" }}
           navbarScroll
         >
-          <Nav.Link href="/">{MENU.inicio}</Nav.Link>
+          <Nav.Link href="/home">{MENU.inicio}</Nav.Link>
           <NavDropdown title="Distribuidores" id="navbarScrollingDropdown">
             <NavDropdown.Item href="/registrar-distribuidor">{MENU.distribuidores.registrar}</NavDropdown.Item>
             {/* <NavDropdown.Divider />
